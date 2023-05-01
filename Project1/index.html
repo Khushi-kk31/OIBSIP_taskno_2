@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushi Kumari</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./image/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"></link>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <h2>Portfolio.</h2>
+
+            <div class="nav-menu">
+                <ul>
+                    <li class="active">
+                        <a href="#">Home</a>
+                        <div></div>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                        <div></div>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                        <div></div>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                        <div></div>
+                    </li>
+                    <li class="pages">
+                        <a href="#">Pages</a>
+                        <div></div>
+                        <ul class="dropdown">
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="contact">
+                        <a href="#">Contact</a>
+                        <div></div>
+                    </li>
+                </ul>
+            </div>
+         
+            <!-- nav social media -->
+            <div class="nav-social">
+                <a href="#">
+                    <i class="fa-regular fa-envelope"></i>                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+            <!-- For android -->
+            <div class="menu">
+                <p>Menu</p>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <!-- section-2 -->
+        <div class="hero-section">
+            <h3 class="greeting">Hello, It's Me</h3>
+            <h2 id="name">Khushi Kumari</h2>
+            <h3 class="name-desc">And I'm a <span class="multi-text"></span> </h3>
+
+            <!-- button -->
+            <a onclick="about()" class="btn btn-1" id="hero-btn-1">
+                <svg>
+                  <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                </svg>
+               See more about us
+            </a>
+            <div class="about-text" id="about-desc">
+                I’m a software developer and here is my portfolio website. Here you’ll learn about my journey as a software developer.
+            </div>
+            <div class="button" id="hero-btn-2" onclick="back()">
+                <i class="fa-solid fa-backward"></i>
+                <p>Back </p>
+                
+            </div>
+        </div>    
+    
+        <!-- section-3 -->
+        <div class="about-sec">
+            <div class="sec-1">
+                <p class="heading-1">About Me</p>
+                <h3 class="heading-2">My Offered Services</h3>
+                <div class="block"></div>
+    
+                <p class="sec-1-desc">I'm a software developer specializing in building (and occasionally designing) exceptional digital experiences. I like to craft solid and scalable frontend products with great user experiences. </p>
+                
+                <!-- button -->
+                <div class="about-text" id="about-desc">
+                    view all services
+                </div>
+            </div>
+            <div class="sec-2">
+                <div class="card-1">
+                    <div class="icon-1">
+                        <i class="fa-solid fa-laptop fa-2xl"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>Software developer who specializes in creating and designing the user interface (UI) and user experience (UX) of websites and web applications.</p>
+                </div>
+                <div class="card-1">
+                    <div class="icon-1">
+                        <i class="fa-solid fa-database fa-2xl"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Working on server-side software with the help of MERN stack, which focuses on everything you can't see on a website thoroughly.</p>
+                </div>
+            </div>
+            <div class="sec-2">
+                <div class="card-1">
+                    <div class="icon-1">
+                        <i class="fa-solid fa-chart-pie fa-2xl"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Seeks to make websites visually appealing and easy to navigate. Aims to create a positive user experience encouraging customers to stick with a brand.</p>
+                </div>
+                <div class="card-1">
+                    <div class="icon-1">
+                        <i class="fa-solid fa-mobile-screen fa-2xl"></i>
+                    </div>
+                    <h3>Apps Interface</h3>
+                    <p>Designing organized user interface purposefully, in meaningful and useful ways based on clear, consistent models that are apparent.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
